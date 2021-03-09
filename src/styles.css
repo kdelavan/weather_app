@@ -82,14 +82,10 @@ div .icons {
   text-decoration: none;
   color: #499daa;
   font-family: "JetBrains Mono", monospace;
+  margin-left: 100px;
 }
 
 #code-author {
   font-family: "JetBrains Mono", monospace;
   color: #a04ea0;
-}
-
-#open-source-link,
-#code-author {
-  margin-left: 100px;
 }

@@ -64,7 +64,7 @@ div .icons {
 
 #search-button,
 #current-location-button {
-  border: solid 2px rgba(212, 87, 219, 0.377);
+  border: solid 2px #98d8e1;
   box-shadow: 1px 1px 1px 1px rgba(138, 34, 179, 0.2);
   border-radius: 3px;
 }
@@ -72,12 +72,6 @@ div .icons {
 #current-location-button {
   margin-top: 15px;
   float: right;
-  background-color: rgba(212, 87, 219, 0.377);
-}
-
-#current-location-button:hover {
-  background-color: rgba(82, 209, 226, 0.377);
-  transition: all 0.3s ease-in-out;
 }
 
 .units {

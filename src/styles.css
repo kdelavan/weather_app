@@ -85,6 +85,10 @@ div .icons {
   margin-left: 100px;
 }
 
+#open-source-link:hover {
+  text-decoration: underline;
+}
+
 #code-author {
   font-family: "JetBrains Mono", monospace;
   color: #a04ea0;

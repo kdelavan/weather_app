@@ -77,3 +77,7 @@ div .icons {
 .units {
   margin-left: 35px;
 }
+
+#open-source-link {
+  text-decoration: none;
+}

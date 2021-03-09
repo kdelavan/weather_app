@@ -69,6 +69,12 @@ div .icons {
   border-radius: 3px;
 }
 
+#search-button,
+#current-location-button:hover {
+  color: #98d8e1;
+  background-color: #d9afd9;
+}
+
 #current-location-button {
   margin-top: 15px;
   float: right;

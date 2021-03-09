@@ -72,11 +72,11 @@ div .icons {
 #current-location-button {
   margin-top: 15px;
   float: right;
-  background-color: #d557db;
+  background-color: rgba(212, 87, 219, 0.377);
 }
 
 #current-location-button:hover {
-  background-color: #52d1e2;
+  background-color: rgba(82, 209, 226, 0.377);
   transition: all 0.3s ease-in-out;
 }
 

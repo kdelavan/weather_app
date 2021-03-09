@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/1becaab1fb.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card weatherAppCard">
+        <div class="card-body">
+          <div class="float-end">
+            <form class="d-flex" id="search-city">
+              <input
+                class="form-control me-2"
+                type="text"
+                placeholder="Change City"
+                aria-label="Change City"
+                autofocus="on"
+                autocomplete="off"
+                id="search-text-input"
+              />
+              <input id="search-button" type="submit" value="Search" />
+            </form>
+
+            <button id="current-location-button">📍 Use location</button>
+          </div>
+
+          <h1 class="card-title" id="city-name"></h1>
+           <h3 class="dayTime"></h3>
+          <span id="temperature"></span>
+          <span class="units"> <strong>°F</strong> | °C </span>
+          <br />
+          <span id="weather-descriptor"></span>
+
+         <ul>
+           <li id="high-low">High | Low</li>
+           <li id="hilo-temps">48° | 34°</li>
+         </ul>
+
+        <div class="card weekOfTemps">
+          <h4 class="card-title">Seven Day Forecast</h4>
+          <div class="card-body">
+            <div class="row days">
+              <div class="col">Wednesday</div>
+              <div class="col">Thursday</div>
+              <div class="col">Friday</div>
+              <div class="col">Saturday</div>
+              <div class="col">Sunday</div>
+              <div class="col">Monday</div>
+              <div class="col">Tuesday</div>
+            </div>
+            <div class="row dailyTemp">
+              <div class="col">48° / 34°</div>
+              <div class="col">42° / 40°</div>
+              <div class="col">48° / 39°</div>
+              <div class="col">49° / 42°</div>
+              <div class="col">50° / 41°</div>
+              <div class="col">48° / 37°</div>
+              <div class="col">48° / 36°</div>
+            </div>
+            <div class="row icons">
+              <div class="col"><i class="fas fa-cloud-sun-rain"></i></div>
+              <div class="col"><i class="fas fa-cloud-showers-heavy"></i></div>
+              <div class="col"><i class="fas fa-cloud-rain"></i></div>
+              <div class="col"><i class="fas fa-cloud-rain"></i></div>
+              <div class="col"><i class="fas fa-cloud-rain"></i></div>
+              <div class="col"><i class="fas fa-cloud-showers-heavy"></i></div>
+              <div class="col"><i class="fas fa-cloud-rain"></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/script.js"></script>
+  </body>
+</html>
+

@@ -1,0 +1,79 @@
+h1 {
+  font-size: 52px;
+}
+
+h4 {
+  padding-left: 30px;
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+  display: inline;
+}
+
+.dayTime {
+  font-size: 22px;
+}
+
+#high-low {
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+#hilo-temps {
+  margin-left: 34px;
+}
+
+div .weatherAppCard {
+  padding: 25px;
+  margin: 250px 100px 100px 100px;
+  background: linear-gradient(#d9afd9, #97d9e1);
+  font-family: "JetBrains Mono", monospace;
+  border-top: 1px solid #97d9e1;
+  border-bottom: 1px solid #d9afd9;
+}
+
+div .weekOfTemps {
+  background: rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  padding: 20px 15px 10px 15px;
+  margin-top: 20px;
+}
+
+div .days,
+.dailyTemp,
+.icons {
+  text-align: center;
+}
+
+div .icons {
+  font-size: 40px;
+  margin-top: 10px;
+  color: rgba(43, 10, 56, 0.925);
+}
+
+#temperature {
+  font-size: 50px;
+}
+
+#weather-descriptor {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+#search-button,
+#current-location-button {
+  border: solid 2px #98d8e1;
+  box-shadow: 1px 1px 1px 1px rgba(138, 34, 179, 0.2);
+  border-radius: 3px;
+}
+
+#current-location-button {
+  margin-top: 15px;
+  float: right;
+}
+
+.units {
+  margin-left: 35px;
+}

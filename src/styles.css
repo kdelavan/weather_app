@@ -71,7 +71,7 @@ div .icons {
 }
 #search-button,
 #current-location-button:hover {
-  color: #52d1e2;
+  background-color: #52d1e2;
   transition: all 0.3s ease-in-out;
 }
 

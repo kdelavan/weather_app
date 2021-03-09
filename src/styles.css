@@ -67,17 +67,17 @@ div .icons {
   border: solid 2px #98d8e1;
   box-shadow: 1px 1px 1px 1px rgba(138, 34, 179, 0.2);
   border-radius: 3px;
-  background-color: #d557db;
-}
-#search-button,
-#current-location-button:hover {
-  background-color: #52d1e2;
-  transition: all 0.3s ease-in-out;
 }
 
 #current-location-button {
   margin-top: 15px;
   float: right;
+  background-color: #d557db;
+}
+
+#current-location-button:hover {
+  background-color: #52d1e2;
+  transition: all 0.3s ease-in-out;
 }
 
 .units {

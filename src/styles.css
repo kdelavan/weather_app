@@ -88,3 +88,8 @@ div .icons {
   font-family: "JetBrains Mono", monospace;
   color: #a04ea0;
 }
+
+#open-source-link,
+#code-author {
+  margin-left: 100px;
+}

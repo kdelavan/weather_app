@@ -78,9 +78,13 @@ div .icons {
   margin-left: 35px;
 }
 
-#open-source-link,
-#code-author {
+#open-source-link {
   text-decoration: none;
-  color: #a04ea0;
+  color: #499daa;
   font-family: "JetBrains Mono", monospace;
+}
+
+#code-author {
+  font-family: "JetBrains Mono", monospace;
+  color: #a04ea0;
 }

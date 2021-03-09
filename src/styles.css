@@ -27,7 +27,7 @@ ul {
 
 div .weatherAppCard {
   padding: 25px;
-  margin: 100px 100px 100px 100px;
+  margin: 100px 100px 20px 100px;
   background: linear-gradient(#d9afd9, #97d9e1);
   font-family: "JetBrains Mono", monospace;
   border-top: 1px solid #97d9e1;
@@ -78,9 +78,9 @@ div .icons {
   margin-left: 35px;
 }
 
-#open-source-link {
+#open-source-link,
+#code-author {
   text-decoration: none;
   color: #a04ea0;
   font-family: "JetBrains Mono", monospace;
-  margin-top: 20px;
 }

@@ -48,7 +48,7 @@ function showTemperature(response) {
   let description = document.querySelector("#weather-descriptor");
   description.innerHTML = response.data.weather[0].description;
   let iconElement = document.querySelector("#big-icon");
-  iconElement.setAttribute("src", `http:openweathermap.org/img/04d@2x.png`);
+  iconElement.setAttribute("src", `http://openweathermap.org/img/04d@2x.png`);
 }
 
 

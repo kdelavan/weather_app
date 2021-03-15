@@ -47,8 +47,11 @@ function showTemperature(response) {
   h1.innerHTML = city;
   let description = document.querySelector("#weather-descriptor");
   description.innerHTML = response.data.weather[0].description;
-
+  let iconElement = document.querySelector("#big-icon");
 }
+
+iconElement.setAttribute("src", `http:openweathermap.org/img/04d@2x.png`);
+
 
 function searchLocation(position) {
   let latitude = position.coords.latitude;
@@ -70,6 +73,4 @@ function getLocation(event) {
 let currentLocationButton = document.querySelector("#current-location-button");
 currentLocationButton.addEventListener("click", getLocation);
 
-let iconElement = document.querySelector("#big-icon");
 
-iconElement.setAttribute("src", `http:openweathermap.org/img/04d@2x.png`);

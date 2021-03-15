@@ -70,7 +70,6 @@ function getLocation(event) {
 let currentLocationButton = document.querySelector("#current-location-button");
 currentLocationButton.addEventListener("click", getLocation);
 
+let iconElement = document.querySelector("#big-icon");
 
-
-
-
+iconElement.setAttribute("src", `http:openweathermap.org/img/04d@2x.png`);

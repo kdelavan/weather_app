@@ -59,7 +59,10 @@ div .icons {
 
 #weather-descriptor {
   font-size: 20px;
-  text-transform: capitalize;
+}
+
+#weather-descriptor::first-letter {
+text-transform: capitalize;
 }
 
 #search-button,

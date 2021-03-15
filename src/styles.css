@@ -65,6 +65,11 @@ div .icons {
 text-transform: capitalize;
 }
 
+#big-icon {
+  float: left;
+}
+
+
 #search-button,
 #current-location-button {
   border: solid 2px #98d8e1;
@@ -96,5 +101,3 @@ text-transform: capitalize;
   font-family: "JetBrains Mono", monospace;
   color: #a04ea0;
 }
-
-S

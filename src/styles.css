@@ -61,7 +61,7 @@ div .icons {
   font-size: 20px;
 }
 
-#weather-descriptor::first-letter {
+#weather-descriptor:first-letter {
 text-transform: capitalize;
 }
 

@@ -55,8 +55,6 @@ function showTemperature(response) {
 }
 
 
-
-
 function searchLocation(position) {
   let latitude = position.coords.latitude;
   let longitude = position.coords.longitude;
@@ -77,4 +75,13 @@ function getLocation(event) {
 let currentLocationButton = document.querySelector("#current-location-button");
 currentLocationButton.addEventListener("click", getLocation);
 
+function showCelsiusTemperature(event){
+event.preventDefault();
+let celsiusTemperature = (32 - 32) * 5 / 9;
+let temperatureElement = document.querySelector("#temperature");
+temperatureElement.innerHTML = Math.round(celsiusTemperature);
+}
 
+
+let celsiusLink = document.querySelector("#celsius-link");
+celsiusLink.addEventListener("click", showCelsiusTemperature);

@@ -81,13 +81,18 @@ currentLocationButton.addEventListener("click", getLocation);
 
 function showCelsiusTemperature(event){
 event.preventDefault();
+farenheitLink.classList.remove("active");
+celsiusLink.classList.add("active");
 let celsiusTemperature = (farenheitTemperature - 32) / 1.8;
 let temperatureElement = document.querySelector("#temperature");
+
 temperatureElement.innerHTML = Math.round(celsiusTemperature);
 }
 
 function showFahrenheitTemperature(event) {
   event.preventDefault();
+  farenheitLink.classList.add("active");
+  celsiusLink.classList.remove("active");
   let temperatureElement = document.querySelector("#temperature");
   temperatureElement.innerHTML = Math.round(farenheitTemperature);
 }

@@ -39,6 +39,7 @@ let form = document.querySelector("#search-city");
 form.addEventListener("submit", handleSubmit);
 
 function showTemperature(response) {
+  farenheitTemperature = response.data.main.temp;
   let currentTemp = Math.round(farenheitTemperature);
   let temp = document.querySelector("#temperature");
   temp.innerHTML = `${currentTemp}`;
@@ -52,9 +53,6 @@ function showTemperature(response) {
   `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
   );
   iconElement.setAttribute("alt", response.data.weather[0].description);
-
-  farenheitTemperature = response.data.main.temp;
-
 
 }
 

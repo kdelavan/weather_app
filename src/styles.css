@@ -84,11 +84,11 @@ text-transform: capitalize;
 
 .units {
   margin-left: 25px;
-  text-decoration: none;
+ 
 
 }
 
-.active {
+.units a {
   color: #000000;
   cursor: default;
   text-decoration: none;

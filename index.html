@@ -44,67 +44,41 @@
 
             <button id="current-location-button">📍 Use location</button>
           </div>
-<div class="row">
-  <div class="col-5">
-          <h1 class="card-title" id="city-name"></h1>
-     
-           <h3 class="dayTime"></h3>
-          <span id="temperature"></span> 
-          <span class="units">
-            <a href="#" id="farenheit-link" class="active"> °F </a>
-            | 
-            <a href="#" id="celsius-link">°C</a> 
-          </span>
-          </div>
-         
-        
-          <div class="col-6" id="weather-info">
-          <img src="" alt=""
-          id="big-icon"> 
-          <span id="weather-descriptor"></span>
-         <ul>
-           <li>Humidity:<span id="humidity" ></span>%</li>
-           <li>Wind:<span id="wind-speed"></span>km/h</li>
-        </ul>   
-        </div>
-      </div> 
+          <div class="row">
+            <div class="col-5">
+              <h1 class="card-title" id="city-name"></h1>
 
-        <div class="card weekOfTemps">
-          <h4 class="card-title">Seven Day Forecast</h4>
-          <div class="card-body">
-            <div class="row days">
-              <div class="col">Wednesday</div>
-              <div class="col">Thursday</div>
-              <div class="col">Friday</div>
-              <div class="col">Saturday</div>
-              <div class="col">Sunday</div>
-              <div class="col">Monday</div>
-              <div class="col">Tuesday</div>
+              <h3 class="dayTime"></h3>
+              <span id="temperature"></span>
+              <span class="units">
+                <a href="#" id="farenheit-link" class="active"> °F </a>
+                |
+                <a href="#" id="celsius-link">°C</a>
+              </span>
             </div>
-            <div class="row dailyTemp">
-              <div class="col">48° / 34°</div>
-              <div class="col">42° / 40°</div>
-              <div class="col">48° / 39°</div>
-              <div class="col">49° / 42°</div>
-              <div class="col">50° / 41°</div>
-              <div class="col">48° / 37°</div>
-              <div class="col">48° / 36°</div>
+
+            <div class="col-6" id="weather-info">
+              <img src="" alt="" id="big-icon" />
+              <span id="weather-descriptor"></span>
+              <ul>
+                <li>Humidity:<span id="humidity"></span>%</li>
+                <li>Wind:<span id="wind-speed"></span>km/h</li>
+              </ul>
             </div>
-            <div class="row icons">
-              <div class="col"><i class="fas fa-cloud-sun-rain"></i></div>
-              <div class="col"><i class="fas fa-cloud-showers-heavy"></i></div>
-              <div class="col"><i class="fas fa-cloud-rain"></i></div>
-              <div class="col"><i class="fas fa-cloud-rain"></i></div>
-              <div class="col"><i class="fas fa-cloud-rain"></i></div>
-              <div class="col"><i class="fas fa-cloud-showers-heavy"></i></div>
-              <div class="col"><i class="fas fa-cloud-rain"></i></div>
+          </div>
+
+          <div class="card hourlyForecast">
+            <h4 class="card-title">Hourly Forecast</h4>
+            <div class="card-body">
+              <div class="row weather-forecast" id="forecast"></div>
             </div>
           </div>
         </div>
       </div>
+      <a id="open-source-link" href="https://github.com/kdelavan/weather_app"
+        >Open-source code</a
+      ><span id="code-author"> by Kathryn Delavan</span>
     </div>
-   <a id="open-source-link" href="https://github.com/kdelavan/weather_app">Open-source code</a><span id="code-author"> by Kathryn Delavan</span>
     <script src="src/script.js"></script>
   </body>
 </html>
-

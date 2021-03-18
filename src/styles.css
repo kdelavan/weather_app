@@ -13,7 +13,7 @@ ul {
 }
 
 #weather-info {
-  margin-top: 85px;
+  margin-top: 80px;
 }
 
 .dayTime {
@@ -22,30 +22,18 @@ ul {
 
 div .weatherAppCard {
   padding: 20px;
-  margin: 100px 100px 20px 100px;
+  margin: 100px 90px 10px 90px;
   background: linear-gradient(#d9afd9, #97d9e1);
   font-family: "JetBrains Mono", monospace;
   border-top: 1px solid #97d9e1;
   border-bottom: 1px solid #d9afd9;
 }
 
-div .weekOfTemps {
+div .hourlyForecast {
   background: rgba(255, 255, 255, 0.3);
   border: 1px solid rgba(255, 255, 255, 0.4);
   padding: 20px 15px 10px 15px;
   margin-top: 20px;
-}
-
-div .days,
-.dailyTemp,
-.icons {
-  text-align: center;
-}
-
-div .icons {
-  font-size: 40px;
-  margin-top: 10px;
-  color: rgba(43, 10, 56, 0.925);
 }
 
 #temperature {
@@ -102,6 +90,10 @@ div .icons {
   font-weight: bold;
 }
 
+#forecast {
+  text-align: center;
+}
+
 #open-source-link {
   text-decoration: none;
   color: #499daa;
@@ -109,11 +101,10 @@ div .icons {
   margin-left: 100px;
 }
 
-#open-source-link:hover {
-  text-decoration: underline;
-}
-
 #code-author {
   font-family: "JetBrains Mono", monospace;
   color: #a04ea0;
+}
+#open-source-link:hover {
+  text-decoration: underline;
 }

@@ -13,7 +13,7 @@ ul {
 }
 
 #weather-info {
-  margin-top: 80px;
+  margin-top: 90px;
 }
 
 .dayTime {
@@ -27,13 +27,13 @@ div .weatherAppCard {
   font-family: "JetBrains Mono", monospace;
   border-top: 1px solid #97d9e1;
   border-bottom: 1px solid #d9afd9;
+  box-shadow: 1px 1px 1px 1px rgba(54, 14, 70, 0.2);
 }
 
 div .hourlyForecast {
   background: rgba(255, 255, 255, 0.3);
   border: 1px solid rgba(255, 255, 255, 0.4);
   padding: 20px 15px 10px 15px;
-  margin-top: 20px;
 }
 
 #temperature {
@@ -98,7 +98,7 @@ div .hourlyForecast {
   text-decoration: none;
   color: #499daa;
   font-family: "JetBrains Mono", monospace;
-  margin-left: 100px;
+  margin-left: 90px;
 }
 
 #code-author {

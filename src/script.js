@@ -11,8 +11,7 @@ let date = new Date(timestamp);
     "Saturday"
   ];
   let day = days[date.getDay()];
-  let h3 = document.querySelector("h3"); 
-  h3.innerHTML = `${day} ${hours}:${minutes}`;
+  return `${day} ${formatHours(timestamp)}`;
 }
 
 
@@ -96,7 +95,9 @@ function showTemperature(response) {
   humidityElement.innerHTML = response.data.main.humidity;
   let windElement = document.querySelector("#wind-speed");
   windElement.innerHTML = Math.round(response.data.wind.speed);
-
+  
+  let h3 = document.querySelector("h3"); 
+  h3.innerHTML = formatDate(response.data.dt * 1000);
 }
 
 

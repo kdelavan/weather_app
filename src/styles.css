@@ -21,7 +21,7 @@ ul {
 }
 
 div .weatherAppCard {
-  padding: 25px;
+  padding: 20px;
   margin: 100px 100px 20px 100px;
   background: linear-gradient(#d9afd9, #97d9e1);
   font-family: "JetBrains Mono", monospace;

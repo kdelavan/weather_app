@@ -53,6 +53,10 @@ function showTemperature(response) {
   `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
   );
   iconElement.setAttribute("alt", response.data.weather[0].description);
+  let humidityElement = document.querySelector("#humidity");
+  humidityElement.innerHTML = response.data.main.humidity;
+  let windElement = document.querySelector("#wind-speed");
+  windElement.innerHTML = Math.round(response.data.wind.speed);
 
 }
 

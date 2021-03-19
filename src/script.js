@@ -109,6 +109,9 @@ function searchLocation(position) {
   let apiEndpoint = "https://api.openweathermap.org/data/2.5/weather"
   let geolocationUrl = `${apiEndpoint}?lat=${latitude}&lon=${longitude}&appid=${apiKey}&units=${units}`;
   axios.get(geolocationUrl).then(showTemperature);
+
+  apiUrl = `https://api.openweathermap.org/data/2.5/forecast?lat=${latitude}&lon=${longitude}&units=${units}&appid=${apiKey}`;
+  axios.get(apiUrl).then(displayForecast);
 }
 
 function getLocation(event) {

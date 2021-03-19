@@ -12,12 +12,16 @@ ul {
   display: inline;
 }
 
+h3 {
+  font-size: 18px;
+}
+
 #weather-info {
   margin-top: 90px;
 }
 
 .dayTime {
-  font-size: 22px;
+  font-size: 18px;
 }
 
 div .weatherAppCard {

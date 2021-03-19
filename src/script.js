@@ -96,7 +96,7 @@ function showTemperature(response) {
   let windElement = document.querySelector("#wind-speed");
   windElement.innerHTML = Math.round(response.data.wind.speed);
   
-  let h3 = document.querySelector("h3"); 
+  let h3 = document.querySelector(".dayTime"); 
   h3.innerHTML = formatDate(response.data.dt * 1000);
 }
 

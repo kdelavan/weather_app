@@ -45,7 +45,7 @@
             <button id="current-location-button">📍 Use location</button>
           </div>
           <div class="row">
-            <div class="col-5">
+            <div class="col-sm">
               <h1 class="card-title" id="city-name"></h1>
 
               <h3>Last updated: <br /><span class="dayTime"></span></h3>
@@ -58,7 +58,7 @@
               </span>
             </div>
 
-            <div class="col-6" id="weather-info">
+            <div class="col-sm" id="weather-info">
               <img src="" alt="" id="big-icon" />
               <span id="weather-descriptor"></span>
               <ul>
@@ -67,11 +67,14 @@
               </ul>
             </div>
           </div>
-
-          <div class="card hourlyForecast">
-            <h4 class="card-title">Hourly Forecast</h4>
-            <div class="card-body">
-              <div class="row weather-forecast" id="forecast"></div>
+          <div class="col-sm">
+            <div class="card hourlyForecast">
+              <h4 class="card-title">Hourly Forecast</h4>
+              <div class="card-body">
+                <div class="col-sm">
+                  <div class="row weather-forecast" id="forecast"></div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
